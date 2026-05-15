@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the software archive."
+title: "rc-nonlinear-fem: Orthotropic FE framework for nonlinear analysis of RC structures"
+abstract: >-
+  MATLAB implementation of an orthotropic finite element framework for
+  monotonic nonlinear analysis of reinforced concrete structures under
+  plane stress. Includes a 9-node isoparametric membrane element with
+  smeared reinforcement, Kupfer biaxial failure envelope, equivalent
+  uniaxial strain, smeared rotating crack model with fracture-energy
+  regularisation, and Giuffrè-Menegotto-Pinto steel constitutive law.
+authors:
+  - family-names: Silva
+    given-names: Edilson
+    affiliation: "Universidade Federal do Pará (UFPA), Brazil"
+    email: edilson_morais@ufpa.br
+  - family-names: Lobo
+    given-names: Leon
+    affiliation: "Universidade de São Paulo (USP), Brazil"
+  - family-names: Barreto
+    given-names: Diego
+    affiliation: "Universidade Federal do Pará (UFPA), Brazil"
+  - family-names: "de Souza"
+    given-names: Remo
+    affiliation: "Universidade Federal do Pará (UFPA), Brazil"
+version: 1.0.0
+date-released: "2026-05-12"
+license: MIT
+repository-code: "https://github.com/USERNAME/rc-nonlinear-fem"
+keywords:
+  - finite element method
+  - reinforced concrete
+  - nonlinear analysis
+  - plane stress
+  - smeared cracking
+  - orthotropic constitutive model
+  - MATLAB
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Silva
+      given-names: Edilson
+    - family-names: Lobo
+      given-names: Leon
+    - family-names: Barreto
+      given-names: Diego
+    - family-names: "de Souza"
+      given-names: Remo
+  title: >-
+    Formulation and implementation of an orthotropic finite element for
+    material nonlinear analysis of reinforced concrete structures
+    considering cracking under plane stress state
+  journal: "Computers and Concrete"
+  year: 2026
+  publisher:
+    name: "Techno-Press"
